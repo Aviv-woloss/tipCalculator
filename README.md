@@ -3,6 +3,10 @@
 
 A full-stack web application designed to calculate tip amounts, split bills among multiple people, and track calculation histories. This project features a modern and responsive user interface built with Angular and Tailwind CSS, backed by a high-performance FastAPI server and a PostgreSQL database.
 
+## Live Demo
+
+https://github.com/user-attachments/assets/33c2901e-fb33-4e3f-8cbf-5232e5a0f40c
+
 ## Tech Stack
 
 ### Frontend
