@@ -13,7 +13,6 @@ https://github.com/user-attachments/assets/33c2901e-fb33-4e3f-8cbf-5232e5a0f40c
 - Angular
 - TypeScript
 - Tailwind CSS
-- PostCSS
 
 ### Backend
 - FastAPI (Python)
