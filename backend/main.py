@@ -87,7 +87,7 @@ def create_calculation(data: CalculationCreate, db: Session = Depends(get_db)):
     db.refresh(db_calculation)
     return db_calculation
 
-@app.get("/api/calculations", response_model=List[CalculationResponse])
-def get_calculations(db: Session = Depends(get_db)):
-    calculations = db.query(CalculationModel).order_by(CalculationModel.created_at.desc()).all()
-    return calculations
+# @app.get("/api/calculations", response_model=List[CalculationResponse])
+# def get_calculations(db: Session = Depends(get_db)):
+#     calculations = db.query(CalculationModel).order_by(CalculationModel.created_at.desc()).all()
+#     return calculations
