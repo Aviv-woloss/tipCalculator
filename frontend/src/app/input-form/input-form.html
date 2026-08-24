@@ -1,0 +1,33 @@
+<div class="space-y-10">
+  
+  <div class="group">
+    <label class="block text-slate-500 text-xs font-semibold tracking-widest uppercase mb-2 transition-colors group-focus-within:text-white">Bill Amount</label>
+    <div class="relative border-b border-slate-800 focus-within:border-slate-500 transition-colors py-3">
+      <span class="absolute left-0 top-1/2 -translate-y-1/2 text-slate-600 font-medium text-2xl">$</span>
+      <input 
+        type="number" 
+        min="0"
+        class="w-full bg-transparent text-left pl-8 text-4xl font-light text-white outline-none tracking-tight"
+        placeholder="0.00"
+        [(ngModel)]="bill"
+        (ngModelChange)="onBillChange()"
+      >
+    </div>
+  </div>
+
+  <div class="group">
+    <label class="block text-slate-500 text-xs font-semibold tracking-widest uppercase mb-2 transition-colors group-focus-within:text-white">Number of People</label>
+    <div class="relative border-b border-slate-800 focus-within:border-slate-500 transition-colors py-3">
+      <span class="absolute left-0 top-1/2 -translate-y-1/2 text-slate-600 text-xl">👤</span>
+      <input 
+        type="number" 
+        min="1"
+        class="w-full bg-transparent text-left pl-10 text-4xl font-light text-white outline-none tracking-tight"
+        placeholder="1"
+        [(ngModel)]="people"
+        (ngModelChange)="onPeopleChange()"
+      >
+    </div>
+  </div>
+
+</div>
